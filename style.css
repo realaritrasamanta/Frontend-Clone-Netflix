@@ -20,11 +20,11 @@ html body {
   background-size: max(1200px, 100vw);
   position: relative;
 }
+
 .main .box {
-  height: 70vh;
+  height: 100%;
   width: 100%;
-  opacity: 0.6;
-  background-color: black;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0, 0, 0, 0.180) 50%, rgba(0,0,0,0.8) 100%);
   position: absolute;
   top: 0;
 }
